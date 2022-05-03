@@ -1,0 +1,53 @@
+body{
+    background-color: #eeeee4;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navigation{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.local{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.statement{
+    text-align: center;
+}
+.video{
+    float: inline-start;
+}
+.tips{
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    float: inline-end;
+    justify-content: end;
+}
+.benefits{
+    text-align: center;
+    background-image: url(benefits.jpg);
+    padding: 3%;
+    color: white;
+}
+.description{
+    background-color: white;
+    padding: 3%;
+}
+.shop{
+    text-align: center;
+    background-image: url(jars.jpg);
+    padding: 3%;
+}
+.recipes{
+    text-align: center;
+}
+.flatbread{
+    background-image: url(pizza.jpg);
+    justify-content: left;
+    size-adjust: 20%;
+}
