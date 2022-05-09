@@ -12,7 +12,6 @@ body{
     top: 5%;
     left: 20%;
     right: 20%;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -24,6 +23,7 @@ body{
     top: 10%;
     left: 20%;
     right: 20%;
+    font-size: large;
 }
 .title{
     text-align: center;
@@ -31,6 +31,7 @@ body{
     top: 16%;
     left: 20%;
     right: 20%;
+    font-size: larger;
 }
 .statement{
     text-align: center;
@@ -38,6 +39,7 @@ body{
     top: 25%;
     left: 20%;
     right: 20%;
+    font-size: large;
 }
 .video{
     position: absolute;
@@ -50,6 +52,8 @@ body{
     position: absolute;
     right: 10%;
     top: 40%;
+    padding: 2%;
+    font-size: larger;
 }
 .benefits{
     text-align: center;
@@ -73,4 +77,12 @@ body{
     background-image: url(pizza.jpg);
     justify-content: left;
     size-adjust: 20%;
+}
+.story{
+    position: absolute;
+    right: 45%;
+    left: 8%;
+    top: 70%;
+    padding: 2%;
+    font-size: larger;
 }
