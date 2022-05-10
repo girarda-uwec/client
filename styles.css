@@ -5,6 +5,77 @@ body{
     padding-right: 5%;
 }
 .navigation{
+    align-items: center;
+    text-align: center;
+}
+.local{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.statement{
+    text-align: center;
+}
+.video{
+    justify-content: center;
+    align-items: center;
+}
+.tips{
+    background-color: white;
+    align-items: center;
+    padding: 2%;
+}
+.story{
+    text-align: center;
+}
+.benefits{
+    text-align: center;
+    background-image: url(benefits.jpg);
+    background-size: 100%;
+    padding: 3%;
+    color: white;
+}
+.description{
+    background-color: white;
+    padding: 3%;
+}
+.recipes{
+    text-align: center;
+    background-image: url(cooking.jpg);
+    background-size: 100%;
+    padding: 3%;
+    color: white;
+}
+.flatbread{
+    background-image: url(pizza.jpg);
+    background-size: 100%;
+    padding: 50%;
+    size-adjust: 30%;
+    color: #eeeee4;
+    align-items: center;
+    text-align: center;
+}
+.pancakes{
+    background-image: url(pancakes.jpg);
+    background-size: 100%;
+    padding: 40%;
+    size-adjust: 40%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.pie{
+    background-image: url(pie.webp);
+    background-size: 120%;
+    padding: 40%;
+    size-adjust: 40%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+/*
+.navigation{
     text-align: center;
     text-decoration: none;
     color: black;
@@ -55,9 +126,18 @@ body{
     padding: 2%;
     font-size: larger;
 }
+.story{
+    position: absolute;
+    right: 45%;
+    left: 8%;
+    top: 70%;
+    padding: 2%;
+    font-size: larger;
+}
 .benefits{
     text-align: center;
     background-image: url(benefits.jpg);
+    background-size: 100%;
     padding: 3%;
     color: white;
 }
@@ -67,22 +147,22 @@ body{
 }
 .shop{
     text-align: center;
-    background-image: url(jars.jpg);
+    background-image: url(shopimage.jpg);
+    background-size: 100%;
     padding: 3%;
 }
 .recipes{
     text-align: center;
+    background-image: url(cooking.jpg);
+    background-size: 100%;
 }
 .flatbread{
     background-image: url(pizza.jpg);
-    justify-content: left;
+    background-size: 100%;
+    padding: 10%;
     size-adjust: 20%;
-}
-.story{
+    color: #eeeee4;
     position: absolute;
-    right: 45%;
-    left: 8%;
-    top: 70%;
-    padding: 2%;
-    font-size: larger;
+    left: 10%;
+    top: 10%;
 }
