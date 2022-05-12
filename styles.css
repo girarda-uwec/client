@@ -7,6 +7,14 @@ body{
 .navigation{
     align-items: center;
     text-align: center;
+    background: #000;
+    padding: 5%;
+}
+.navigation a:hover{
+    background-color: pink;
+}
+.navigation a{
+    float: inline-start;
 }
 .local{
     text-align: center;
@@ -28,6 +36,8 @@ body{
 }
 .story{
     text-align: center;
+    background-color: #c6d7b9;
+    padding: 2%;
 }
 .benefits{
     text-align: center;
@@ -52,7 +62,6 @@ body{
     background-size: 120%;
     padding: 40%;
     size-adjust: 40%;
-    color: #eeeee4;
     align-items: center;
     text-align: center;
     font-size: x-large;
@@ -101,8 +110,8 @@ body{
 a:link{
     color:white;
     text-decoration: none;
-    stroke-width: 200%;
     stroke: black;
+    stroke-width: 300%;
 }
 a:visited{
     color: white;
@@ -134,12 +143,10 @@ a:hover{
     text-align: center;
     font-family: arial;
   }
-  
   .price {
     color: grey;
     font-size: 22px;
   }
-  
   .card button {
     border: none;
     outline: 0;
@@ -151,7 +158,6 @@ a:hover{
     width: 100%;
     font-size: 18px;
   }
-  
   .card button:hover {
     opacity: 0.7;
   }
