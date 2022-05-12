@@ -49,12 +49,13 @@ body{
 }
 .flatbread{
     background-image: url(pizza.jpg);
-    background-size: 100%;
-    padding: 50%;
-    size-adjust: 30%;
+    background-size: 120%;
+    padding: 40%;
+    size-adjust: 40%;
     color: #eeeee4;
     align-items: center;
     text-align: center;
+    font-size: x-large;
 }
 .pancakes{
     background-image: url(pancakes.jpg);
@@ -64,16 +65,96 @@ body{
     color: white;
     align-items: center;
     text-align: center;
+    font-size: x-large;
 }
 .pie{
     background-image: url(pie.webp);
-    background-size: 120%;
+    background-size: 99%;
+    background-position: 40%;
     padding: 40%;
     size-adjust: 40%;
     color: white;
     align-items: center;
     text-align: center;
+    font-size: x-large;
 }
+.cupcake{
+    background-image: url(cupcake.webp);
+    background-size: 99%;
+    padding: 40%;
+    size-adjust: 50%;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+.pecans{
+    background-image: url(pecans.webp);
+    background-size: 100%;
+    padding: 40%;
+    size-adjust: 50%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    stroke-width: 200%;
+    stroke: black;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.contact{
+    background-image: url(field.webp);
+    text-align: center;
+    background-size: 100%;
+    padding: 3%;
+    color: purple;
+    background-position: 50%;
+}
+.shop{
+    background-image: url(shoppingbackground.webp);
+    text-align: center;
+    background-size: 100%;
+    padding: 3%;
+    color: black;
+    background-position: 50%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
 /*
 .navigation{
     text-align: center;
